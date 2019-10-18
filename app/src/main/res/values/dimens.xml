@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius_input">4dp</dimen>
+
+    <dimen name="padding_horizontal_input">8dp</dimen>
+    <dimen name="padding_vertical_input">16dp</dimen>
+</resources>
