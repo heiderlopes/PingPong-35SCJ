@@ -26,4 +26,9 @@
         <item name="android:textColorHint">@color/input_hint_text_color</item>
     </style>
 
+    <style name="custom_button">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
 </resources>

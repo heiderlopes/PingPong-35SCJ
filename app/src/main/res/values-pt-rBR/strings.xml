@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_begin">Começar Partida</string>
+    <string name="hint_player_one">Jogador 1</string>
+    <string name="hint_player_two">Jogador 2</string>
+    <string name="label_develop_by">Desenvolvido por Heider Lopes</string>
+    <string name="label_sub_subtitle">Preencha abaixo os nomes dos jogadores</string>
+    <string name="label_subtitle">Vai começar a partida!</string>
+    <string name="label_title">PingPongX</string>
+</resources>

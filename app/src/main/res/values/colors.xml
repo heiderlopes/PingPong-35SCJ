@@ -9,4 +9,6 @@
 
     <color name="input_text_color">#FFFFFF</color>
     <color name="input_hint_text_color">#EEEEEE</color>
+
+    <color name="button_text_color">#FFF</color>
 </resources>
