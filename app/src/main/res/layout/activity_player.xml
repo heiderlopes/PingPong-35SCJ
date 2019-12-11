@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editText"
+            android:id="@+id/etHome"
             app:layout_constraintStart_toStartOf="@+id/textView3" app:layout_constraintEnd_toEndOf="@+id/textView3"
             android:layout_marginTop="64dp" app:layout_constraintTop_toBottomOf="@+id/textView3"
             android:layout_marginStart="32dp" android:layout_marginEnd="32dp" android:hint="@string/hint_player_one"
@@ -43,20 +43,20 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editText2"
-            app:layout_constraintStart_toStartOf="@+id/editText" app:layout_constraintEnd_toEndOf="@+id/editText"
-            android:layout_marginTop="48dp" app:layout_constraintTop_toBottomOf="@+id/editText"
+            android:id="@+id/etAway"
+            app:layout_constraintStart_toStartOf="@+id/etHome" app:layout_constraintEnd_toEndOf="@+id/etHome"
+            android:layout_marginTop="48dp" app:layout_constraintTop_toBottomOf="@+id/etHome"
             android:hint="@string/hint_player_two" style="@style/away_input"/>
     <Button
             style="@style/custom_button"
             android:text="@string/button_begin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
+            android:id="@+id/btStart"
             app:layout_constraintStart_toStartOf="@+id/textView"
-            app:layout_constextViewtraintEnd_toEndOf="@+id/textView"
             app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="32dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView4"/>
+            app:layout_constraintBottom_toTopOf="@+id/textView4" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
     <TextView
             android:text="@string/label_develop_by"
             android:layout_width="wrap_content"
